@@ -25,7 +25,7 @@
 					<input id="invoice_title" wire:model='invoice_title' type="text" placeholder="Invoice Title" class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-gray-400 dark:border-coolGray-700 dark:text-coolGray-900">
 				</div>
 				<div class="col-span-full">
-					<label for="address" class="text-sm">Properties for Landlord:</label>
+				zas	<label for="address" class="text-sm">Properties for Landlord:</label>
                     @if (!empty($owned_properties))
                         <select wire:model='selected_property' class="form-select focus:ring-gray-500 focus:border-gray-500 flex-1 block w-full rounded-lg rounded-r-md sm:text-sm border-gray-300">
                             @foreach ($owned_properties as $owned_property)
