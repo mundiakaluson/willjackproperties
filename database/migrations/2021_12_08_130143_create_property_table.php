@@ -14,7 +14,7 @@ class CreatePropertyTable extends Migration
     public function up()
     {
         Schema::create('property', function (Blueprint $table) {
-            $table->id();
+            $table->id()->unsigned()->index();
             $table->timestamps();
             $table->string('uploaded_by');
             $table->string('owner_id')->nullable();
