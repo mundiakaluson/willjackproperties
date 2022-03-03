@@ -17,7 +17,7 @@ class CreatePropertyTable extends Migration
             $table->id()->unsigned()->index();
             $table->timestamps();
             $table->string('uploaded_by');
-            $table->string('owner_id')->nullable();
+            $table->string('owner_id')->nullable()->default('Owner Unregistered');
             $table->string('name');
             $table->text('description');
             $table->string('location');
