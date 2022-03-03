@@ -17,7 +17,7 @@ class CreatePhotosTable extends Migration
             $table->id();
             $table->timestamps();
             $table->integer('property_id')->unsigned()->nullable();
-            $table->foreign('property_id')->references('id')->on('property')->nullable();
+            $table->foreign('property_id')->references('id')->on('property')->nullable()->unsigned()->index();
             $table->longText('photo_paths')->nullable();
         });
     }
