@@ -15,7 +15,7 @@
                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Location
                 </th>
-                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-widaer">
                   Type
                 </th>
                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -36,9 +36,6 @@
                           {{ $property->owner_id }}
                         </div>
                         <div class="text-sm text-gray-500 bg-gray-300 rounded-lg pl-2 pr-2 hover:text-gray-700 hover:bg-gray-200">
-                          @if ()
-                              
-                          @endif
                           <a href="{{ route('admin.properties.landlord', ['id'=>$property->owner_id]) ?? '' }}">View Owner</a>
                         </div>
                       </div>
@@ -65,7 +62,7 @@
                     {{ $property->type }}
                   </span>
                 </td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                 <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {{ $property->status }}
                 </td>
                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
