@@ -19,7 +19,7 @@
       @endphp
       <a href="{{ route('properties.properties.details', ['id' => $property->id]) }}" class="group">
         <div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-          <img src="{{ url('storage/' . $str_clean[0]) }}" style="height: 380px"
+          <img src="{{ url('storage/' . $str_clean[0]) }}" style="height: 340px"
             alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
             class="w-full h-1/2 object-center object-cover group-hover:opacity-75">
         </div>
