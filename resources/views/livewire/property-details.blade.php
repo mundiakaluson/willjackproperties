@@ -5,7 +5,7 @@
                 Property Information
             </h3>
             <p class="mt-1 max-w-2xl text-sm text-gray-500">
-                Property details are subject to change on request.
+                Property details are subject to change on as tenants vacate or occupy the units.
             </p>
         </div>
         <div class="border-t border-gray-200">
