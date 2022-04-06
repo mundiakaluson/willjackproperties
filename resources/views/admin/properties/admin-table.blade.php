@@ -36,7 +36,11 @@
                           {{ $property->owner_id }}
                         </div>
                         <div class="text-sm text-gray-500 bg-gray-300 rounded-lg pl-2 pr-2 hover:text-gray-700 hover:bg-gray-200">
-                          <a href="{{ route('admin.properties.landlord', ['id'=>$property->owner_id]) ?? '' }}">View Owner</a>
+                          @if ($property->owner_id == '')
+                              <a href="#">Owner Unregistered</a>
+                          @else
+                              <a href="{{ route('admin.properties.landlord', ['id'=>$property->owner_id]) ?? '' }}">View Owner</a>
+                          @endif
                         </div>
                       </div>
                     </div>
