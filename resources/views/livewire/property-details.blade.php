@@ -16,10 +16,14 @@
                         Owner ID: Name
                     </dt>
                     <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                        @php
-                            $owner = DB::table('users')->where('id', $property->owner_id)->get();
-                        @endphp
-                        {{ $owner[0]->id }}: {{ $owner[0]->name }}
+                        @if ($property->owner_id == '')
+                            Owner Unregistered
+                        @else
+                            @php
+                                $owner = DB::table('users')->where('id', $property->owner_id)->get();
+                            @endphp
+                            {{ $owner[0]->id }}: {{ $owner[0]->name }}
+                        @endif
                     </dd>
                 </div>
                 @endif
