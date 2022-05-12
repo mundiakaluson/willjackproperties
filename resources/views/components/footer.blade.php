@@ -1,7 +1,7 @@
-<footer class="text-gray-600 body-font bg-gray-200 rounded-lg">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+<footer class="text-gray-600 text-center body-font bg-gray-200 rounded-lg">
+  <div class="container px-5 py-6 mx-auto">
+    <div class="flex flex-wrap md:text-left text-center -mb-5 -mx-4">
+      {{-- <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
@@ -17,8 +17,8 @@
             <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
           </li>
         </nav>
-      </div>
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+      </div> --}}
+      {{-- <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
@@ -34,8 +34,8 @@
             <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
           </li>
         </nav>
-      </div>
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+      </div> --}}
+      {{-- <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
@@ -51,8 +51,8 @@
             <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
           </li>
         </nav>
-      </div>
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+      </div> --}}
+      {{-- <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
@@ -68,38 +68,38 @@
             <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
           </li>
         </nav>
-      </div>
+      </div> --}}
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Landlord's Portal</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Register</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Login</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Forgot Password</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Submit Ticket</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Properties</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Search Properties</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800">View Properties</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Inquiry on Property</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Submit a Ticket</a>
           </li>
         </nav>
       </div>
@@ -145,7 +145,7 @@
   </div>
   <div class="bg-gray-300 rounded-lg">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 Willjack Properties —
+      <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Willjack Properties —
         <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@willjack_properties</a>
       </p>
       <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">The solution to all your real estate tussles</span>

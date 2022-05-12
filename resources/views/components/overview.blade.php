@@ -6,7 +6,7 @@
           <h1 class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
             Property management done easier and faster
           </h1>
-          <p class="mt-4 text-xl text-gray-500">This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die.</p>
+          <p class="mt-4 text-xl text-gray-500">At Willjack Properties, we believe that our clients need a smooth and easy experience. This is why we value your feedback.</p>
         </div>
         <div>
           <div class="mt-10">
@@ -45,7 +45,7 @@
               </div>
             </div>
   
-            <a href="#" class="inline-block text-center bg-gray-500 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-gray-400">Register Now!</a>
+            <a href="#" class="inline-block text-center bg-gray-500 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-gray-400">Submit Feedback</a>
           </div>
         </div>
       </div>

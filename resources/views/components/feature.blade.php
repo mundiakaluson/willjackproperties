@@ -22,7 +22,7 @@
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Rent your home</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              Have a property with no tenants? Let our marketing team quickly get your property new tenants and start cashing in!
             </dd>
           </div>
   
@@ -35,7 +35,7 @@
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Buy your new home</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              We have numerous units ready for purchase. Check out our available properties section.
             </dd>
           </div>
   
@@ -48,7 +48,7 @@
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Find your next home</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              Renting a home has never been easier! Just give us your desired location and budget, we'll get on it ASAP.
             </dd>
           </div>
   
@@ -58,10 +58,10 @@
                 <!-- Heroicon name: outline/annotation -->
                 <img src="https://img.icons8.com/ios/30/000000/property.png"/>
               </div>
-              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Manage your houses</p>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Monitor your houses</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              Sit back and monitor your properties through our user-friendly portal custom designed for you!
             </dd>
           </div>
         </dl>
